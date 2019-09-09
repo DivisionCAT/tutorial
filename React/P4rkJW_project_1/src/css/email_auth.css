@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 100;
+    display: flex;
+    background-color: black;
+}
+
+.login-form {
+    background-color : white;
+    margin: auto;
+    padding: 6rem;
+}
+
+.login-text {
+    color: black;
+    font-size: 25px;
+    margin: auto;
+    max-width: 100%;
+    padding: .5rem;
+    text-align: center;
+}
+
+.login-username, .login-password {
+    border: 1px solid black;
+    display: block;
+    margin: 0 0 0.5rem 0;
+    padding: 0.5rem;
+    width: 400px;
+}
+
+.login-submit {
+    border: 1px solid white;
+    background: transparent;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+}
