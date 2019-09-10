@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './css/email_auth.css';
+import reactDOM from 'react-dom'
 
 class App extends Component{
   render()
@@ -17,6 +18,14 @@ class App extends Component{
         </div>
     );
   }
+}
+
+function createMarkup(){
+    return {__html : 'a'};
+}
+
+function MyComponent(){
+    return <div dangerouslySetInnerHTML={createMarkup()} />;
 }
 
 export default App;
